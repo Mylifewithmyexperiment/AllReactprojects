@@ -1,65 +1,26 @@
 import { combineReducers } from 'redux'
-import {
-  SELECT_SUBREDDIT, INVALIDATE_SUBREDDIT,
-  REQUEST_POSTS, RECEIVE_POSTS
-} from '../actions'
+import cart, * as fromCart from './cart'
+import products, * as fromProducts from './products'
 
-const selectedSubreddit = (state = 'reactjs', action) => {
-  switch (action.type) {
-    case SELECT_SUBREDDIT:
-      return action.subreddit
-    default:
-      return state
-  }
-}
-
-const posts = (state = {
-  isFetching: false,
-  didInvalidate: false,
-  items: []
-}, action) => {
-  switch (action.type) {
-    case INVALIDATE_SUBREDDIT:
-      return {
-        ...state,
-        didInvalidate: true
-      }
-    case REQUEST_POSTS:
-      return {
-        ...state,
-        isFetching: true,
-        didInvalidate: false
-      }
-    case RECEIVE_POSTS:
-      return {
-        ...state,
-        isFetching: false,
-        didInvalidate: false,
-        items: action.posts,
-        lastUpdated: action.receivedAt
-      }
-    default:
-      return state
-  }
-}
-
-const postsBySubreddit = (state = { }, action) => {
-  switch (action.type) {
-    case INVALIDATE_SUBREDDIT:
-    case RECEIVE_POSTS:
-    case REQUEST_POSTS:
-      return {
-        ...state,
-        [action.subreddit]: posts(state[action.subreddit], action)
-      }
-    default:
-      return state
-  }
-}
-
-const rootReducer = combineReducers({
-  postsBySubreddit,
-  selectedSubreddit
+export default combineReducers({
+  cart,
+  products
 })
 
-export default rootReducer
+const getAddedIds = state => fromCart.getAddedIds(state.cart)
+const getQuantity = (state, id) => fromCart.getQuantity(state.cart, id)
+const getProduct = (state, id) => fromProducts.getProduct(state.products, id)
+
+export const getTotal = state =>
+  getAddedIds(state)
+    .reduce((total, id) =>
+      total + getProduct(state, id).price * getQuantity(state, id),
+      0
+    )
+    .toFixed(2)
+
+export const getCartProducts = state =>
+  getAddedIds(state).map(id => ({
+    ...getProduct(state, id),
+    quantity: getQuantity(state, id)
+  }))

@@ -1,0 +1,67 @@
+{
+    "uid": "homepage",
+    "uuid": "eyJpdGVtSWQiOiJob21lcGFnZSIsImNhdGFsb2dJZCI6ImIyY3RlbGNvQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+    "title": "Homepage",
+    "template": "LandingPage2Template",
+    "typeCode": "ContentPage",
+    "name": "Homepage",
+    "contentSlots": {
+      "contentSlot": [
+        {
+          "slotId": "SearchBoxSlot",
+          "slotUuid": "eyJpdGVtSWQiOiJTZWFyY2hCb3hTbG90IiwiY2F0YWxvZ0lkIjoiYjJjdGVsY29Db250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position": "SearchBox",
+          "name": "Search Box",
+          "slotShared": true,
+          "components": {
+            "component": [
+              {
+                "uid": "SearchBox",
+                "uuid": "eyJpdGVtSWQiOiJTZWFyY2hCb3giLCJjYXRhbG9nSWQiOiJiMmN0ZWxjb0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "SearchBoxComponent",
+                "modifiedTime": "2020-02-10T07:25:25.484Z",
+                "name": "Search Box",
+                "container": "false",
+                "maxSuggestions": "6",
+                "maxProducts": "4",
+                "displaySuggestions": "true",
+                "displayProducts": "true",
+                "displayProductImages": "true",
+                "waitTimeBeforeRequest": "500",
+                "minCharactersBeforeRequest": "3"
+              }
+            ]
+          }
+        },
+        {
+          "slotId": "SiteLogoSlot",
+          "slotUuid": "eyJpdGVtSWQiOiJTaXRlTG9nb1Nsb3QiLCJjYXRhbG9nSWQiOiJiMmN0ZWxjb0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+          "position": "SiteLogo",
+          "name": "Default Site Logo Slot",
+          "slotShared": true,
+          "components": {
+            "component": [
+              {
+                "uid": "SiteLogoComponent",
+                "uuid": "eyJpdGVtSWQiOiJTaXRlTG9nb0NvbXBvbmVudCIsImNhdGFsb2dJZCI6ImIyY3RlbGNvQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode": "SimpleBannerComponent",
+                "modifiedTime": "2020-09-14T17:02:43.611Z",
+                "name": "Site Logo Component",
+                "container": "false",
+                "external": "false",
+                "media": {
+                  "code": "/images/theme/logo-tal.svg",
+                  "mime": "image/svg+xml",
+                  "altText": "STL B2C Telco Accelerator",
+                  "url": "/medias/logo-tal.svg?context=bWFzdGVyfGltYWdlc3wxNTMzfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2hjZS9oOGEvODgyNDEwOTgyNjA3OC5zdmd8MDRkMWY2ZjgyOTU1ZTNmMWFjZjk0ZjMxODVhZWQ1YzI1OTk2Y2I1MjFlZmYzYTg0Y2E3ZmZkZGVkZGY4NWM0OA"
+                },
+                "urlLink": "/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "label": "homepage"
+  }
+  

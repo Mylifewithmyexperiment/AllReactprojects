@@ -1,0 +1,14 @@
+.card-summary-container{
+  float: left;
+  margin-top: 40px;
+}
+.cart-item, .cart__total{
+  display: flex;
+  justify-content: space-between;
+}
+.cart-item__name {
+  margin-right: 10px;
+}
+.cart__total__text{
+  margin-right: 12px;
+}

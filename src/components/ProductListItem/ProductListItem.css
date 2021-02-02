@@ -1,0 +1,10 @@
+.card-img-top {
+  width: 140px;
+  height: 140px;
+}
+.card {
+  display: inline-block;
+  margin: 20px;
+  width: 230px;
+  padding: 20px;
+}

@@ -1,8 +1,11 @@
-import { combineReducers } from "redux";
-import sendHomeData from "./sendHomeData"
- 
-const AddAllReducers =combineReducers({
-    sendHomeData :sendHomeData
+import { combineReducers } from 'redux';
+
+import productItems from './productItems';
+import cartItems from './cartItems';
+
+let rootReducer = combineReducers({
+  productItems,
+  cartItems
 });
 
-export default AddAllReducers;
+export default rootReducer;

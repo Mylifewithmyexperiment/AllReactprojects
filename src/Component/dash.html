@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            padding: 40px;
+        }
+        
+        .navbar {
+            display: flex;
+            margin: 20px;
+        }
+        
+        .slot1 {
+            border: 2px solid red;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        .slot2 {
+            border: 2px solid red;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        #submit {
+            margin-left: 80%;
+        }
+        
+        .body {
+            display: flex;
+        }
+        
+        .body1 {
+            width: 50%;
+            height: 3444px;
+            border: 2px solid blue;
+        }
+        
+        .body2 {
+            width: 50%;
+            border: 2px solid yellow;
+        }
+    </style>
+    <div class="navbar">
+
+        <div class="slot1">
+            <div id="name">Name</div>
+            <div id="box1"><input placeholder="text area 1" type="text"></div>
+        </div>
+
+        <div class="slot2">
+            <div><input placeholder="text area 2" type="text"></div>
+            <button onclick="apicall()" id="submit" type="submit">Logout</button>
+        </div>
+
+    </div>
+
+    <div class="body">
+
+        <div class="body1"></div>
+        <div class="body2"></div>
+
+    </div>
+
+    <script>
+        function apicall() {
+
+            var url = " https://jsonplaceholder.typicode.com/todos";
+
+            var xhr = new XMLHttpRequest();
+
+            xhr.open("GET", url)
+
+            xhr.send();
+
+            document.getElementById("body1").innerHTML = "Loading......"
+
+            xhr.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var fetchData = xhr.response
+                    document.getElementsByClassName("body1").innerHTML =
+                        this.responseText;
+                    console.log(this.responseText)
+                }
+            };
+
+            xhr.onload = (function() {
+                console.log("Extraction Done")
+            })
+        }
+    </script>
+</body>
+
+</html>

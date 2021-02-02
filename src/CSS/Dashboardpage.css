@@ -1,0 +1,210 @@
+.navigation {
+    display: flex;
+    height: 50px;
+    align-content: space-around;
+}
+
+.slot1 {
+    display: flex;
+    width: 50%;
+    align-content: space-around;
+}
+
+.username {
+    width: 185px;
+    color: rgb(108, 8, 190);
+    display: inline-block;
+    margin-left: 122px;
+    margin-top: 10px;
+}
+
+.textbox1 {
+    width: 50%;
+    color: brown;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.slot2 {
+    display: flex;
+    width: 50%;
+    align-content: space-around;
+}
+
+.textbox2 {
+    color: blue;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 50%;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+#logout {
+    margin-left: 10px;
+    background-color: indigo;
+    display: inline-block;
+    margin-right: 20px;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+.body {
+    display: flex;
+}
+
+.container1 {
+    display: flex;
+    border: 2px solid red;
+    width: 48%;
+    height: 100vh;
+    position: relative;
+    margin: 0.5%;
+}
+
+.container2 {
+    display: flex;
+    border: 2px solid green;
+    width: 48%;
+    height: 100vh;
+    position: relative;
+    margin: 0.5%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .username {
+        width: 135px;
+        color: rgb(2, 165, 16);
+        display: inline-block;
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    .textbox1 {
+        width: 37%;
+        color: brown;
+        display: inline-block;
+        height: fit-content;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .username {
+        width: auto;
+        color: rgb(2, 165, 16);
+        display: inline-block;
+        margin-left: 12px;
+        margin-top: 10px;
+        font-size: x-small;
+    }
+    .textbox1 {
+        width: 37%;
+        color: brown;
+        display: inline-block;
+        height: fit-content;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    #logout {
+        margin-left: 10px;
+        background-color: indigo;
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 10px;
+        height: fit-content;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .username {
+        width: 100px;
+        color: rgb(24, 22, 22);
+        display: inline-block;
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    .textbox1 {
+        width: 37%;
+        color: brown;
+        display: inline-block;
+        height: fit-content;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    #logout {
+        margin-left: 10px;
+        background-color: indigo;
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 10px;
+        height: fit-content;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .username {
+        width: 100px;
+        color: rgb(228, 22, 90);
+        display: inline-block;
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    .textbox1 {
+        width: 37%;
+        color: brown;
+        display: inline-block;
+        height: fit-content;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    #logout {
+        margin-left: 10px;
+        background-color: indigo;
+        display: inline-block;
+        margin-right: 20px;
+        height: fit-content;
+        margin-top: 10px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .username {
+        width: 100px;
+        color: rgb(16, 211, 81);
+        display: inline-block;
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    .textbox1 {
+        width: 50%;
+        margin-top: 10px;
+        color: brown;
+        height: fit-content;
+        margin-left: 50px;
+    }
+    #logout {
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: indigo;
+        display: inline-block;
+        margin-right: 20px;
+        height: fit-content;
+    }
+}

@@ -1,0 +1,3 @@
+export const SEND_PRODUCT_TO_CART = 'SEND_PRODUCT_TO_CART';
+
+

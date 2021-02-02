@@ -1,0 +1,62 @@
+[
+
+    {
+     "id":1,
+     "image":"images/Brands/articona_Logo_brandshops.png"
+    },
+    {
+        "id":2,
+        "image":"/images/Brands/apple_logo_brandshops.png"
+    }, 
+    {
+        "id":3,
+        "image":"/images/Brands/dell_logo_markenshop.png"
+    },
+    {
+        "id":4,
+        "image":"/images/Brands/HP.png"
+    },
+    {
+        "id":5,
+        "image":"/images/Brands/Lenovo.png"
+    },
+    
+    {
+        "id":6,
+        "image":"/images/Brands/logitech.png"
+    },
+    {
+        "id":7,
+        "image":"/images/Brands/microsoft-logo-brandshops.png"
+    },
+    {
+        "id":8,
+        "image":"/images/Brands/MicrosoftSurface.png"
+    },
+    {
+        "id":9,
+        "image":"/images/Brands/poly-logo-startseite.png"
+    },
+    {
+        "id":10,
+        "image":"/images/Brands/samsung-hersteller_logo_startseite.png"
+    },
+    {
+        "id":11,
+        "image":"/images/Brands/startech-markenshop-logo.jpg"
+    },
+    {
+        "id":12,
+        "image":"/images/Brands/Airspan-logo.png"
+    },
+    {
+        "id":13,
+        "image":"/images/Brands/altiostar_logo.jpg"
+    },
+    {
+        "id":14,
+        "image":"/images/Brands/nokia-logo.png"
+    }
+    
+    
+   ]

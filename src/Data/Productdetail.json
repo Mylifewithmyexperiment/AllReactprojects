@@ -1,0 +1,55 @@
+[
+
+    {
+     "id":1,
+     "backgroundImage":"/images/network_slicing.png",
+     "text":"Network Slicing",
+     "description":"Get dedicated network slice to enable your business"
+
+    } ,
+
+    {
+     "id":2,
+     "backgroundImage":"/images/cloud_applications.png",
+     "text":"Cloud Applications",
+     "description":"Pre Integrated & On demand"
+
+    } ,
+
+    {
+     "id":3,
+     "backgroundImage":"images/Enabler_services.png",
+     "text":"Enabler Services",
+     "description":"Agile & On time"
+
+    } ,
+
+    {
+        "id":4,
+        "backgroundImage":"/images/Rf_planning.png",
+        "text":"RF Planning",
+        "description":"Rakuten's market leading RF planning tool that helps you."
+   
+       } ,
+
+       {
+        "id":5,
+        "backgroundImage":"/images/network_slicing.png",
+        "text":"Network Slicing",
+        "description":"Get dedicated network slice to enable your business"
+   
+       } ,
+   
+       {
+        
+        "id":6,
+        "backgroundImage":"/images/cloud_applications.png",
+        "text":"Cloud Applications",
+        "description":"Pre Integrated & On demand"
+   
+       } 
+   
+
+
+    
+   ]

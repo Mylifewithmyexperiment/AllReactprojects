@@ -1,0 +1,185 @@
+
+
+   {
+     "Data1":
+     [
+      {
+        "id":1,
+        "name":"Nokia",
+        "image":".//images/enode0.png",
+        "imageCaption":".//images/cap1.png",
+        "price":10239,
+         "text":"Nokia premier software package includes these softwares: Remote Radio Head Software, Radio Interface Unit Software, Switch Configuration Software, Hardware Component Monitoring, Orchestrator, vCU and vOU.",
+         "buttons":[{ "button":"4G" },
+                    {"button":"5G" }
+                   ],
+         "onetimecharge":10239,
+         "recurringCharge":0,
+         "category":"E NODE B"
+       },
+       {
+        "id":2,
+        "name":"NEC",
+        "image":".//images/enode1.png",
+        "imageCaption":".//images/cap2.png",
+        "price":9500,
+         "text":"NEC eNodeB package includes all network elements required to set up the site. It includes Remote Radio Head, GPS, Radio Interface Unit, HUB Switch, Rectifier and Antenna.",
+         "buttons":[{ "button":"4G" },
+          {"button":"5G" }
+         ],
+         "onetimecharge":9500,
+         "recurringCharge":0,
+         "category":"E NODE B"
+        
+      
+           
+       }, 
+       {
+         "id":3,
+         "name":"Airspan",
+        "image":".//images/enode2.png",
+        "imageCaption":".//images/cap3.png",
+        "price":8000,
+         "text":"Airspan eNodeB package includes all network elements required to set up the site. It includes Remote Radio Head, GPS, Radio Interface Unit, HUB Switch, Rectifier and Antenna.",
+         "buttons":[{ "button":"4G" },
+          {"button":"5G" }
+         ],
+         "onetimecharge":8000,
+         "recurringCharge":0,
+         "category":"E NODE B"
+       }
+    ],
+     "Data2":
+     [
+       {
+
+        "id":1,
+        "name":"NOKIA",
+        "image":".//images/enode0.png",
+        "imageCaption":".//images/cap1.png",
+        "price":700,
+         "text":"Nokia premier software package includes these softwares: Remote Radio Head Software, Radio Interface Unit Software, Switch Configuration Software, Hardware Component Monitoring, Orchestrator, vCU and vOU.",
+         "buttons":[{ "button":"4G" },
+          {"button":"5G" }
+         ],
+         "onetimecharge":0,
+         "recurringCharge":700,
+         "category":"Software"
+       },
+       {
+
+        "id":2,
+        "name":"ALTIOSTAR",
+        "image":".//images/soft1.png",
+        "imageCaption":".//images/cap4.png",
+        "price":2000,
+         "text":"This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+         "buttons":[{ "button":"4G" },
+          {"button":"5G" }
+         ],
+         "onetimecharge":0,
+         "recurringCharge":2000 ,
+         "category":"Software"
+
+       }
+     ],
+
+     "Data3":
+     [
+       {
+
+        "id":1,
+        "name":"Inventory Mannagement",
+        "image":".//images/app1.jpg",
+        "imageCaption":"Inventory Management",
+        "price":150,
+         "text":"Inventory Management helps you get live alarm when any kind of malfunction happens in the network. The pack enables you be to be in close sync with network elements status 24*7.",
+         "buttons":[{ "button":"2 weeks free" },
+                    { "button":"4 weeks paid" },
+                    { "button":"8 weeks paid" }
+         ],
+         "onetimecharge":0,
+         "recurringCharge":150,
+         "category":"Application"
+
+       },
+
+       {
+
+        "id":2,
+        "name":"Performance Trigger",
+        "image":".//images/app2.jpg",
+        "imageCaption":"Performance Trigger",
+        "price":10,
+         "text":"Performance trigger helps you get live alarm when any kind of performance degradation happens in the network. This pack enables you to be in close sync with network element’s performance 24*7.",
+         "buttons":[{ "button":"2 weeks free" },
+                    { "button":"4 weeks paid" },
+                    { "button":"8 weeks paid" }
+         ],
+         "onetimecharge":0,
+         "recurringCharge":10 ,
+         "category":"Application"
+
+       },
+
+       {
+
+        "id":3,
+        "name":"Fault Management",
+        "image":".//images/app3.jpg",
+        "imageCaption":"Fault Management",
+        "price":300,
+         "text":"Fault Management helps you detect, isolate, and correct malfunctions in the network elements by carrying out sequences of diagnostics tests and detecting error notifications.",
+         "buttons":[{ "button":"2 weeks free" },
+                    { "button":"4 weeks paid" },
+                    { "button":"8 weeks paid" }
+         ],
+         "onetimecharge":0,
+         "recurringCharge":300 ,
+         "category":"Application"
+
+       },
+
+       {
+
+        "id":4,
+        "name":"Performance Management",
+        "image":".//images/subsoftware2.png",
+        "imageCaption":"Performance Management",
+        "price":400,
+         "text":"Performance management helps you enables, manage and ensure optimal performance levels of all the network elements present in your network and also helps you ensure consistent and predictable level of service.",
+         "buttons":[{ "button":"2 weeks free" },
+                    { "button":"4 weeks paid" },
+                    { "button":"8 weeks paid" }
+         ],
+         "onetimecharge":0,
+         "recurringCharge":400,
+         "category":"Application"
+
+       },
+       {
+
+        "id":5,
+        "name":"Audit",
+        "image":".//images/subsoftware1.png",
+        "imageCaption":"Audit",
+        "price":400,
+         "text":"Audit Management helps you analyze, study and gather data about a network with the purpose of ascertaining its health. The data is gathered, vulnerabilities and threats are identified, and a formal audit report is stored for 2 weeks of duration.",
+         "buttons":[{ "button":"2 weeks free" },
+                    { "button":"4 weeks paid" },
+                    { "button":"8 weeks paid" }
+         ],
+         "onetimecharge":0,
+         "recurringCharge":400,
+         "category":"Application"
+
+       }
+       
+     ]
+
+   }
+
+   
+
+
+

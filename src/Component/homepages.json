@@ -1,0 +1,964 @@
+{
+    "uid" : "homepage",
+    "uuid" : "eyJpdGVtSWQiOiJob21lcGFnZSIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+    "title" : "Homepage",
+    "template" : "LandingPage2Template",
+    "typeCode" : "ContentPage",
+    "name" : "Homepage",
+    "contentSlots" : {
+       
+        "contentSlot" :
+         [
+           
+            {
+          "slotId" : "Section2ASlot-Homepage",
+          "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uMkFTbG90LUhvbWVwYWdlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "Section2A",
+          "name" : "Section2A Slot for Homepage",
+          "slotShared" : false,
+          "components" : {
+             "component" : [ {
+                "uid" : "ElectronicsHompageLightFamBannerComponent",  
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VMaWdodEZhbUJhbm5lckNvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.297Z",
+                "name" : "Electronics Homepage Light Family Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_200x150_HomeFam_EN_01_200W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Compact Cameras",
+                      "url" : "/medias/Elec-200x150-HomeFam-EN-01-200W.jpg?context=bWFzdGVyfGltYWdlc3wxMDc3OXxpbWFnZS9qcGVnfGgzNS9oYzkvODc5NzUwNzk0NDQ3OC9FbGVjXzIwMHgxNTBfSG9tZUZhbV9FTl8wMV8yMDBXLmpwZ3w1NWYyM2ZhOTZlODBkZWY0ZWI2YmM3MDcwMWU3OWM5OTBjZDNhOThkMWFkYjdmZmFkMzU0MWY2YTAzMTgxYWZi"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_240x180_HomeFam_EN_01_240W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Compact Cameras",
+                      "url" : "/medias/Elec-240x180-HomeFam-EN-01-240W.jpg?context=bWFzdGVyfGltYWdlc3wxMjYzOHxpbWFnZS9qcGVnfGgwZC9oZWMvODc5NzUwODAxMDAxNC9FbGVjXzI0MHgxODBfSG9tZUZhbV9FTl8wMV8yNDBXLmpwZ3xiZTgzMTFmODgxNWE2ZDVmNzE5MjJkYzVmN2M0ZGM3OGFhOGZjNzU0M2JhNGRiNjQ2MzZiOWJhYjM5ZGZiNDM0"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_350x262_HomeFam_EN_01_350W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Compact Cameras",
+                      "url" : "/medias/Elec-350x262-HomeFam-EN-01-350W.jpg?context=bWFzdGVyfGltYWdlc3wyMDg4M3xpbWFnZS9qcGVnfGhiNy9oZWIvODc5NzUwODA0Mjc4Mi9FbGVjXzM1MHgyNjJfSG9tZUZhbV9FTl8wMV8zNTBXLmpwZ3xlN2NjY2M5YWVmZWUwMGM1MzhmZGQzOTc3MjYzYjU4YzAxYzI2NTBjZTYzNGM2MGExMWU1MWQxZjQyYjM0ZjMz"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Cameras/DigitalCameras/Digital-Compacts/c/576"
+             }, {
+                "uid" : "ElectronicsHompageLightFamTextBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VMaWdodEZhbVRleHRCYW5uZXJDb21wb25lbnQiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.384Z",
+                "name" : "Electronics Homepage Light Family Text Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_200x150_HomeFamLight_EN_01_200W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Camera Lenses",
+                      "url" : "/medias/Elec-200x150-HomeFamLight-EN-01-200W.jpg?context=bWFzdGVyfGltYWdlc3w5NzIwfGltYWdlL2pwZWd8aDIzL2hjNi84Nzk3NTA3ODc4OTQyL0VsZWNfMjAweDE1MF9Ib21lRmFtTGlnaHRfRU5fMDFfMjAwVy5qcGd8MjIzZmFhZmQ1YzIxYTNjMmQ3Y2UwNzQ1ZjMyN2E0Y2U3ZTE4MjUyNDI1NjUyZDc5OGY2ZDdiMGQ4ODcxZjExZA"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_240x180_HomeFamLight_EN_01_240W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Camera Lenses",
+                      "url" : "/medias/Elec-240x180-HomeFamLight-EN-01-240W.jpg?context=bWFzdGVyfGltYWdlc3wxMTM0M3xpbWFnZS9qcGVnfGg4Yy9oYzkvODc5NzUwNzk3NzI0Ni9FbGVjXzI0MHgxODBfSG9tZUZhbUxpZ2h0X0VOXzAxXzI0MFcuanBnfDM2MDM1NzE1NjNlYzhiZWQ2OWVjYzNiYmFiZWU4YTI4Mjg2ZjAxODNkODE1NzMwZTRjYjUxMWIyY2UzZTZhYjk"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_350x262_HomeFamLight_EN_01_350W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Camera Lenses",
+                      "url" : "/medias/Elec-350x262-HomeFamLight-EN-01-350W.jpg?context=bWFzdGVyfGltYWdlc3wxNzgzMHxpbWFnZS9qcGVnfGhkZS9oYzgvODc5NzUwNzkxMTcxMC9FbGVjXzM1MHgyNjJfSG9tZUZhbUxpZ2h0X0VOXzAxXzM1MFcuanBnfDA1NjdlNGI4MGFiNzg2ZTk4OWQwMTZkZGI3ZGRhMDJhY2NjMmQzNmEyN2Y4MmRkYjMzMDhjZDcyZWZlNjUyOGQ"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Cameras/CameraAccessories-%26-Supplies/CameraLenses/c/588"
+             } ]
+          }
+       },
+
+
+
+       
+       
+       {
+          "slotId" : "Section4Slot-Homepage",
+          "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "Section4",
+          "name" : "Section4 Slot for Homepage",
+          "slotShared" : false,
+          "components" : {
+             "component" : [ 
+                 {
+                "uid" : "ElectronicsHompageSmDiscountBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VTbURpc2NvdW50QmFubmVyQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.331Z",
+                "name" : "Electronics Homepage Small Discount Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_200x200_HomeSmallDiscount_EN_01_200W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Canyon Web Camera 100KpxelIM CMOS",
+                      "url" : "/medias/Elec-200x200-HomeSmallDiscount-EN-01-200W.jpg?context=bWFzdGVyfGltYWdlc3w3MTgzfGltYWdlL2pwZWd8aDMyL2hkMC84Nzk3NTA4ODYxOTgyL0VsZWNfMjAweDIwMF9Ib21lU21hbGxEaXNjb3VudF9FTl8wMV8yMDBXLmpwZ3w5MjAwODg4ODI2MGZkNzkwZDQxMWU4OGQ4OWZiMzhjNzEzYmZmNTE3Yzk5MjY3OTRmNWIxMTNlNTlhZjVkN2I2"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_240x240_HomeSmallDiscount_EN_01_240W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Canyon Web Camera 100KpxelIM CMOS",
+                      "url" : "/medias/Elec-240x240-HomeSmallDiscount-EN-01-240W.jpg?context=bWFzdGVyfGltYWdlc3w4NTY0fGltYWdlL2pwZWd8aDIwL2g4Mi84Nzk3NTA5MDI1ODIyL0VsZWNfMjQweDI0MF9Ib21lU21hbGxEaXNjb3VudF9FTl8wMV8yNDBXLmpwZ3wxMTVjMWQxZjlhNWUwMGI2YzYwMjNiMTY4ZmQwNjExODgxM2JiMDc0YTIyMWNhZWQ2NDRiMjY3N2MxN2RkOTBj"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_350x350_HomeSmallDiscount_EN_01_350W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Canyon Web Camera 100KpxelIM CMOS",
+                      "url" : "/medias/Elec-350x350-HomeSmallDiscount-EN-01-350W.jpg?context=bWFzdGVyfGltYWdlc3wxMzQ0MXxpbWFnZS9qcGVnfGhjOS9oODEvODc5NzUwOTA1ODU5MC9FbGVjXzM1MHgzNTBfSG9tZVNtYWxsRGlzY291bnRfRU5fMDFfMzUwVy5qcGd8NjUwZTYzYTZlY2Y1MDJmODU1NzlmMTgxNWYwNWVkM2MwM2ExYjczNjQ5MzEyZTkxOGU0N2MyNjhjMzFiNmEzMQ"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Cameras/Webcams/Web-Camera-%28100KpixelM-CMOS%2C-640X480%2C-USB-1-1%29-Black/p/280916"
+             }, {
+                "uid" : "ElectronicsHompageShopBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VTaG9wQmFubmVyQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.419Z",
+                "name" : "Electronics Homepage Shop Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_200x200_HomeShop_EN_01_200W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Logitech QuickCam for Notebook Pro",
+                      "url" : "/medias/Elec-200x200-HomeShop-EN-01-200W.jpg?context=bWFzdGVyfGltYWdlc3w2NjQzfGltYWdlL2pwZWd8aDYxL2g3ZS84Nzk3NTA5MTU2ODk0L0VsZWNfMjAweDIwMF9Ib21lU2hvcF9FTl8wMV8yMDBXLmpwZ3wxMmE0M2MyYWMwNTBkMmI5ODFmM2IxOWYyMGRhNjI1NWU1YTljMzRkNzkzN2IzYzk4MmY5ZWM0YWQ0ZDM5MmY0"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_240x240_HomeShop_EN_01_240W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Logitech QuickCam for Notebook Pro",
+                      "url" : "/medias/Elec-240x240-HomeShop-EN-01-240W.jpg?context=bWFzdGVyfGltYWdlc3w4MDA0fGltYWdlL2pwZWd8aGRhL2hjZi84Nzk3NTA4ODk0NzUwL0VsZWNfMjQweDI0MF9Ib21lU2hvcF9FTl8wMV8yNDBXLmpwZ3xlNjViY2M0YjliNmM2NGQzMzY0OGY2OTIzZjE2ZjQyYjc1YzQxYmU4MjI3MTEwOWRmNDkyZDZkZTAxZmE3OWM5"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_350x350_HomeShop_EN_01_350W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Logitech QuickCam for Notebook Pro",
+                      "url" : "/medias/Elec-350x350-HomeShop-EN-01-350W.jpg?context=bWFzdGVyfGltYWdlc3wxMjgxMXxpbWFnZS9qcGVnfGg3Mi9oY2MvODc5NzUwODk5MzA1NC9FbGVjXzM1MHgzNTBfSG9tZVNob3BfRU5fMDFfMzUwVy5qcGd8MGEzMTc0YWYwOTFmYTlmZTZkNjlhOGM0N2VjM2U0ZWFlYWEzNTY0MTgwYTVmNTVkY2EyMjQ0ZDlmOWE0OTkxMw"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Cameras/Webcams/QuickCam-for-Notebooks-Pro/p/479742"
+             }, {
+                "uid" : "ElectronicsHompageShipmentBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VTaGlwbWVudEJhbm5lckNvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.609Z",
+                "name" : "Electronics Homepage Shipment Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_200x200_HomeShipment_EN_01_200W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Samsung NV10 Compact Camera",
+                      "url" : "/medias/Elec-200x200-HomeShipment-EN-01-200W.jpg?context=bWFzdGVyfGltYWdlc3w3MDkwfGltYWdlL2pwZWd8aGM5L2hjYy84Nzk3NTA4OTYwMjg2L0VsZWNfMjAweDIwMF9Ib21lU2hpcG1lbnRfRU5fMDFfMjAwVy5qcGd8M2UwMmQ3ZGViMTZlN2ExNzQyZDFlMDgzZGY0ZDFiODRkMWY1ZmI3NWNlNTQ2MzMwNTliMDUyMjJhZjk1OWNhYg"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_240x240_HomeShipment_EN_01_240W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Samsung NV10 Compact Camera",
+                      "url" : "/medias/Elec-240x240-HomeShipment-EN-01-240W.jpg?context=bWFzdGVyfGltYWdlc3w4NDY4fGltYWdlL2pwZWd8aGI3L2g3ZS84Nzk3NTA5MTI0MTI2L0VsZWNfMjQweDI0MF9Ib21lU2hpcG1lbnRfRU5fMDFfMjQwVy5qcGd8ZDQ4NWFlMjg2NWU1NTAwY2RhYmUyMGVmYjdjM2U5M2NjMGZkOTJiZmQ4ZDY0MWM0M2I2ODhmNjk1YjdlNTNjMA"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_350x350_HomeShipment_EN_01_350W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Samsung NV10 Compact Camera",
+                      "url" : "/medias/Elec-350x350-HomeShipment-EN-01-350W.jpg?context=bWFzdGVyfGltYWdlc3wxMzgyOHxpbWFnZS9qcGVnfGgzMy9oY2QvODc5NzUwODkyNzUxOC9FbGVjXzM1MHgzNTBfSG9tZVNoaXBtZW50X0VOXzAxXzM1MFcuanBnfGE3NzlmYjQ4M2QwOTJlMzVlOTlhYWI2YjI0NjVmNjBiOGNhZDE2OTBkYjM4OTY0MjVjMTYxNmYyODJiYjg0ZTg"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Cameras/DigitalCameras/Digital-Compacts/NV10/p/553637"
+             }, {
+                "uid" : "ElectronicsHompageServiceBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VTZXJ2aWNlQmFubmVyQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.721Z",
+                "name" : "Electronics Homepage Service Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_200x200_HomeService_EN_01_200W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Sony Light HVL-20DW2",
+                      "url" : "/medias/Elec-200x200-HomeService-EN-01-200W.jpg?context=bWFzdGVyfGltYWdlc3w1OTk4fGltYWdlL2pwZWd8aDliL2hkMC84Nzk3NTA4ODI5MjE0L0VsZWNfMjAweDIwMF9Ib21lU2VydmljZV9FTl8wMV8yMDBXLmpwZ3wzYWI2NDhkOWQ5ZDM5MDQ5NTY2Mzc0ZmNmMjM5ZmZiMDgwZGQ4Zjc0ZmI1OTM3MDExZGNmZDZmNDEzZDVkODk2"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_240x240_HomeService_EN_01_240W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Sony Light HVL-20DW2",
+                      "url" : "/medias/Elec-240x240-HomeService-EN-01-240W.jpg?context=bWFzdGVyfGltYWdlc3w3Mjg5fGltYWdlL2pwZWd8aDBhL2g3ZS84Nzk3NTA5MTg5NjYyL0VsZWNfMjQweDI0MF9Ib21lU2VydmljZV9FTl8wMV8yNDBXLmpwZ3w2ZjkwNGQ0YzY1ODNkZGZmOGExYjY3ZTlmNjk5ZTI4NGZiOTYwNDE2MWRjYmEyZTViZDUwMjMzYWIzZTA1NmM1"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_350x350_HomeService_EN_01_350W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Sony Light HVL-20DW2",
+                      "url" : "/medias/Elec-350x350-HomeService-EN-01-350W.jpg?context=bWFzdGVyfGltYWdlc3wxMTU4MHxpbWFnZS9qcGVnfGg0Zi9oN2IvODc5NzUwOTIyMjQzMC9FbGVjXzM1MHgzNTBfSG9tZVNlcnZpY2VfRU5fMDFfMzUwVy5qcGd8Njk1ZmFjMjY1MWQyZDIxZjY1NGE3N2FlZjhmZDUzNWFkN2QzNDg0ZjU5YWIzNGJlZTk1Y2ViZDU0MmM0MGZiNA"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Cameras/CameraAccessories-%26-Supplies/CameraFlashes/Light-HVL-20DW2/p/289540"
+             } ]
+          }
+       }, 
+       
+       
+       
+       {
+          "slotId" : "Section2BSlot-Homepage",
+          "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uMkJTbG90LUhvbWVwYWdlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "Section2B",
+          "name" : "Section2B Slot for Homepage",
+          "slotShared" : false,
+          "components" : {
+             "component" : [ 
+                 {
+                "uid" : "ElectronicsHompageCamcordersChildBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VDYW1jb3JkZXJzQ2hpbGRCYW5uZXJDb21wb25lbnQiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.249Z",
+                "name" : "Electronics Homepage Light Family Banner Component Child",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_200x150_HomeCaptureFirst_EN_01_200W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Camcorders",
+                      "url" : "/medias/Elec-200x150-HomeCaptureFirst-EN-01-200W.jpg?context=bWFzdGVyfGltYWdlc3wxMDgxMnxpbWFnZS9qcGVnfGhlOS9oZTEvODc5NzUwODMwNDkyNi9FbGVjXzIwMHgxNTBfSG9tZUNhcHR1cmVGaXJzdF9FTl8wMV8yMDBXLmpwZ3wwZGIzZWI3MzY0YTQyOWFkODE3ZjM3NDA4NTIzN2M2NmExNTlkMjBjMmY4YTk1Njk2NjRhNDQzOWNhMjBiMDZl"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_240x180_HomeCaptureFirst_EN_01_240W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Camcorders",
+                      "url" : "/medias/Elec-240x180-HomeCaptureFirst-EN-01-240W.jpg?context=bWFzdGVyfGltYWdlc3wxMzczNXxpbWFnZS9qcGVnfGgyOS9oZGUvODc5NzUwODQzNTk5OC9FbGVjXzI0MHgxODBfSG9tZUNhcHR1cmVGaXJzdF9FTl8wMV8yNDBXLmpwZ3w0ZTkwODY4MTQyMWEyN2NkMzQxOGM4YjU1MGE5MGNjMGIxZWMyZjVmNDM4YjBiOTdmNTY1YTYxOTlhMmU0YWJk"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_350x262_HomeCaptureFirst_EN_01_350W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Camcorders",
+                      "url" : "/medias/Elec-350x262-HomeCaptureFirst-EN-01-350W.jpg?context=bWFzdGVyfGltYWdlc3wyMzAwOHxpbWFnZS9qcGVnfGg4MC9oZGUvODc5NzUwODQwMzIzMC9FbGVjXzM1MHgyNjJfSG9tZUNhcHR1cmVGaXJzdF9FTl8wMV8zNTBXLmpwZ3xhMWE2ODk1Y2JlZjc3ZmNhNWIzMzIxZWZlNzQwMjg1MmVlZjk3NGFhZjJjMTk1ZjI3MzkyNTljZDY3ZmY3OWNk"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Cameras/Hand-held-Camcorders/c/584"
+             },
+              {
+                "uid" : "ElectronicsHompageCamcordersBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VDYW1jb3JkZXJzQmFubmVyQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.32Z",
+                "name" : "Electronics Homepage Camcorders Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_200x150_HomeKid_EN_01_200W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Power Supplies",
+                      "url" : "/medias/Elec-200x150-HomeKid-EN-01-200W.jpg?context=bWFzdGVyfGltYWdlc3wxMDc5NXxpbWFnZS9qcGVnfGg4Zi9oZTQvODc5NzUwODI3MjE1OC9FbGVjXzIwMHgxNTBfSG9tZUtpZF9FTl8wMV8yMDBXLmpwZ3wwZTEyOGViNGJhNjhkMGIwNTVkY2RiZjFiYmZlMzczZTk4NTNjYTU3MTZiODU5MmIxNjE1MmY3OTk2ZDk2ZTEw"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_240x180_HomeKid_EN_01_240W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Power Supplies",
+                      "url" : "/medias/Elec-240x180-HomeKid-EN-01-240W.jpg?context=bWFzdGVyfGltYWdlc3wxMjYxOHxpbWFnZS9qcGVnfGg5MS9oZTEvODc5NzUwODMzNzY5NC9FbGVjXzI0MHgxODBfSG9tZUtpZF9FTl8wMV8yNDBXLmpwZ3w3ODFjNDUyODk0NjE4NDg2YWU4ODJjZTZkN2RmNDkyYmNhNGI0OTcwZDUxZDJiODlhODA4NzQ5M2Y1MWNmZGY1"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_350x262_HomeKid_EN_01_350W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Power Supplies",
+                      "url" : "/medias/Elec-350x262-HomeKid-EN-01-350W.jpg?context=bWFzdGVyfGltYWdlc3wxOTgzM3xpbWFnZS9qcGVnfGgyNy9oZTEvODc5NzUwODM3MDQ2Mi9FbGVjXzM1MHgyNjJfSG9tZUtpZF9FTl8wMV8zNTBXLmpwZ3xiMjllM2U0OGU5MTk4ZGU0YTViNmE3NzNlMTEzNzdhODEzOWNkMjU4YjIwODNmMDk5MzYwN2VlYzI0N2E4YjE5"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Components/PowerSupplies/c/816"
+             } ]
+          }
+       }, {
+          "slotId" : "Section1Slot-Homepage",
+          "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uMVNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "Section1",
+          "name" : "Section1 Slot for Homepage",
+          "slotShared" : false,
+          "components" : {
+             "component" : [ 
+                 {
+                "uid" : "ElectronicsHompageSplashBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VTcGxhc2hCYW5uZXJDb21wb25lbnQiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.242Z",
+                "name" : "Electronics Homepage Splash Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_770x350_HomeSpeed_EN_01_770W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Save Big On Select SLR & DSLR Cameras",
+                      "url" : "/medias/Elec-770x350-HomeSpeed-EN-01-770W.jpg?context=bWFzdGVyfGltYWdlc3w1MzAzOHxpbWFnZS9qcGVnfGgzZC9oYmIvODc5NzUwNzUxODQ5NC9FbGVjXzc3MHgzNTBfSG9tZVNwZWVkX0VOXzAxXzc3MFcuanBnfDU2ZDg5YTA5YzBkMWQxOTY5MDgwMDg5NGMyZjE5MTRlMWVlMTM2ODc0ZmYxMmNmZjViMTg0NDdlYzJkOGZhYjc"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_960x330_HomeSpeed_EN_01_960W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Save Big On Select SLR & DSLR Cameras",
+                      "url" : "/medias/Elec-960x330-HomeSpeed-EN-01-960W.jpg?context=bWFzdGVyfGltYWdlc3w1MzE2M3xpbWFnZS9qcGVnfGhmYy9oYmUvODc5NzUwNzY0OTU2Ni9FbGVjXzk2MHgzMzBfSG9tZVNwZWVkX0VOXzAxXzk2MFcuanBnfGFmMjJkOGIxYjBlMGVjMDI1NzE5ODliMTcyMDIyYWJkYzM0NGMxNmVhZDgyZTkzZDY3YjZkNTI1OWMxNmMyZjY"
+                   },
+                   "mobile" : {
+                      "code" : "Elec_480x320_HomeSpeed_EN_01_480W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Save Big On Select SLR & DSLR Cameras",
+                      "url" : "/medias/Elec-480x320-HomeSpeed-EN-01-480W.jpg?context=bWFzdGVyfGltYWdlc3wzMzkzMnxpbWFnZS9qcGVnfGg5Ni9oYjgvODc5NzUwNzQ4NTcyNi9FbGVjXzQ4MHgzMjBfSG9tZVNwZWVkX0VOXzAxXzQ4MFcuanBnfDQ0ODUwNWU1MmU3NjFkMTI5NjA0ZjdkMGYyM2Q4YzNiZmUxNjg1MzJkYjVjMzhmMWFjZmU0ZWVhMmFhNDYyMTc"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_1400x440_HomeSpeed_EN_01_1400W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Save Big On Select SLR & DSLR Cameras",
+                      "url" : "/medias/Elec-1400x440-HomeSpeed-EN-01-1400W.jpg?context=bWFzdGVyfGltYWdlc3w4MTk4OHxpbWFnZS9qcGVnfGgzZi9oYjgvODc5NzUwNzQ1Mjk1OC9FbGVjXzE0MDB4NDQwX0hvbWVTcGVlZF9FTl8wMV8xNDAwVy5qcGd8MTM3MzU0NGU0ZGRmYzYxOTY5YzNkZmRhYjEyYzFjNGE4OGY5ODBjMTk2MGYwY2I3YzUxYmZjYWM2NTg5Y2Y2Ng"
+                   }
+                },
+                "urlLink" : "/OpenCatalogue/Cameras/Digital-Cameras/Digital-SLR/c/578"
+             }, {
+                "uid" : "ElectronicsHompageDiscountBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VEaXNjb3VudEJhbm5lckNvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:25.314Z",
+                "name" : "Electronics Homepage Discount Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_770x80_HomeDiscount_EN_01_770W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Save Big on Select Camera Accessories & Supplies",
+                      "url" : "/medias/Elec-770x80-HomeDiscount-EN-01-770W.jpg?context=bWFzdGVyfGltYWdlc3w5NTAwfGltYWdlL2pwZWd8aGE3L2hiYi84Nzk3NTA3NTUxMjYyL0VsZWNfNzcweDgwX0hvbWVEaXNjb3VudF9FTl8wMV83NzBXLmpwZ3xhZGU0YzE2MTM4OTg0NmQ4MzcyMDM5NGFjYWUwMWI5ZjI1NTAyMGY3OTIzM2EwYTE3ZTQ0YWMwNzNlNGQwNWQ5"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_960x80_HomeDiscount_EN_01_960W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Save Big on Select Camera Accessories & Supplies",
+                      "url" : "/medias/Elec-960x80-HomeDiscount-EN-01-960W.jpg?context=bWFzdGVyfGltYWdlc3wxMDQ2NnxpbWFnZS9qcGVnfGhmZi9oYmIvODc5NzUwNzU4NDAzMC9FbGVjXzk2MHg4MF9Ib21lRGlzY291bnRfRU5fMDFfOTYwVy5qcGd8MmNiZGI1MmYyYjljMWE0ODMzZDlmYWU3YmI0YzkxNzQxZGNhZTYyOTNhMjllOWIzMjVkY2U0MjVmMzJkY2JlMQ"
+                   },
+                   "mobile" : {
+                      "code" : "Elec_480x118_HomeDiscount_EN_01_480W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Save Big on Select Camera Accessories & Supplies",
+                      "url" : "/medias/Elec-480x118-HomeDiscount-EN-01-480W.jpg?context=bWFzdGVyfGltYWdlc3wxMDcxNXxpbWFnZS9qcGVnfGhhNS9oYmUvODc5NzUwNzYxNjc5OC9FbGVjXzQ4MHgxMThfSG9tZURpc2NvdW50X0VOXzAxXzQ4MFcuanBnfGZmZGExODdjZDNkY2I2ZjZlMGRkYzA1NDg0NGEyZmFhOTU4MWJjZDFhODhkOTNiM2NkZDJhMGFjM2QwZWNlZWU"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_1400x80_HomeDiscount_EN_01_1400W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Save Big on Select Camera Accessories & Supplies",
+                      "url" : "/medias/Elec-1400x80-HomeDiscount-EN-01-1400W.jpg?context=bWFzdGVyfGltYWdlc3wxMTE0MnxpbWFnZS9qcGVnfGhlOC9oYjcvODc5NzUwNzQyMDE5MC9FbGVjXzE0MDB4ODBfSG9tZURpc2NvdW50X0VOXzAxXzE0MDBXLmpwZ3wwYThjYWY0ZTNlMGNmZjVmNDE1ZDliM2RkZTkwOWU3MTM0ODRhYTllNDYxNDExN2I5ZWYzMzgyOGQ4ZTA4MmQw"
+                   }
+                },
+                "urlLink" : "/Open-Catalogue/Cameras/Camera-Accessories-%26-Supplies/c/585"
+             } ]
+          }
+       }, {
+          "slotId" : "Section2CSlot-Homepage",
+          "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uMkNTbG90LUhvbWVwYWdlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "Section2C",
+          "name" : "Section2C Slot for Homepage",
+          "slotShared" : false,
+          "components" : {
+             "component" : [ ]
+          }
+       }, {
+          "slotId" : "Section5Slot-Homepage",
+          "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uNVNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "Section5",
+          "name" : "Section5 Slot for Homepage",
+          "slotShared" : false,
+          "components" : {
+             "component" : [ {
+                "uid" : "ElectronicsHompageFreeDelBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbXBhZ2VGcmVlRGVsQmFubmVyQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "SimpleResponsiveBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:24.362Z",
+                "name" : "Electronics Homepage Free Delivery Banner Component",
+                "container" : "false",
+                "media" : {
+                   "tablet" : {
+                      "code" : "Elec_770x50_HomeFreeDel_EN_01_770W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Free Shipping on All Orders This Weekend",
+                      "url" : "/medias/Elec-770x50-HomeFreeDel-EN-01-770W.jpg?context=bWFzdGVyfGltYWdlc3w4NzM5fGltYWdlL2pwZWd8aDkyL2g3NC84Nzk3NTA5NDE5MDM4L0VsZWNfNzcweDUwX0hvbWVGcmVlRGVsX0VOXzAxXzc3MFcuanBnfGY3MzkwZTBkOWU1MjlmYTUwODA1YmZhNjVhMjA4OWY3Yzk5NWU0YzM4MDJlZjI2ODUxZWFmZDEyNmY4YjdhMzM"
+                   },
+                   "desktop" : {
+                      "code" : "Elec_960x50_HomFreeDel_EN_01_960W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Free Shipping on All Orders This Weekend",
+                      "url" : "/medias/Elec-960x50-HomFreeDel-EN-01-960W.jpg?context=bWFzdGVyfGltYWdlc3w4ODc5fGltYWdlL2pwZWd8aDM5L2g3Ny84Nzk3NTA5Mzg2MjcwL0VsZWNfOTYweDUwX0hvbUZyZWVEZWxfRU5fMDFfOTYwVy5qcGd8OWY1ZjZhNDA3YjEyYzNlODFhYzQ4YzkwZWM5MzFmZDM2ZTMwM2FhYWZmMjBmOWY2YjcwOGJkZDExOTY3NGFmMQ"
+                   },
+                   "mobile" : {
+                      "code" : "Elec_475x119_HomeFreeDel_EN_01_475W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Free Shipping on All Orders This Weekend",
+                      "url" : "/medias/Elec-475x119-HomeFreeDel-EN-01-475W.jpg?context=bWFzdGVyfGltYWdlc3w5MjUwfGltYWdlL2pwZWd8aGQxL2g3My84Nzk3NTA5NDg0NTc0L0VsZWNfNDc1eDExOV9Ib21lRnJlZURlbF9FTl8wMV80NzVXLmpwZ3xlZWYxZmUyMDYyZjlkMWIxYTU1ZmI3YmY5ZTcxMzVjNDQ4NGNhMjExMjZkNmZjOGM0Mjc1ZjA5MDJlYzIyOTNh"
+                   },
+                   "widescreen" : {
+                      "code" : "Elec_1400x50_HomeFreeDel_EN_01_1400W.jpg",
+                      "mime" : "image/jpeg",
+                      "altText" : "Free Shipping on All Orders This Weekend",
+                      "url" : "/medias/Elec-1400x50-HomeFreeDel-EN-01-1400W.jpg?context=bWFzdGVyfGltYWdlc3wxMDAwNXxpbWFnZS9qcGVnfGgyOC9oNzQvODc5NzUwOTQ1MTgwNi9FbGVjXzE0MDB4NTBfSG9tZUZyZWVEZWxfRU5fMDFfMTQwMFcuanBnfDFhNmFmM2M3MmExYWRlZWM3ODJmMjBlN2Q3ZmExYzIzYjJiODI3YzExNWZlMmVjMDcxOWUwZDY0YmU1NTExYTQ"
+                   }
+                },
+                "urlLink" : "/faq"
+             } ]
+          }
+       }, {
+          "slotId" : "Section3Slot-Homepage",
+          "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uM1Nsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "Section3",
+          "name" : "Section3 Slot for Homepage",
+          "slotShared" : false,
+          "components" : {
+             "component" : [ {
+                "uid" : "ElectronicsHomepageProductCarouselComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0hvbWVwYWdlUHJvZHVjdENhcm91c2VsQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "ProductCarouselComponent",
+                "modifiedTime" : "2020-04-29T19:09:24.387Z",
+                "name" : "Electronics Homepage Product Carousel",
+                "container" : "false",
+                "popup" : "false",
+                "scroll" : "ALLVISIBLE",
+                "productCodes" : "300938 358639 553637 816802 1934793 1382080 1981415 816780 1934406 1986316 592506",
+                "title" : "Our Bestselling Products"
+             }, {
+                "uid" : "NewElectronicsHomepageProductCarouselComponent",
+                "uuid" : "eyJpdGVtSWQiOiJOZXdFbGVjdHJvbmljc0hvbWVwYWdlUHJvZHVjdENhcm91c2VsQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "ProductCarouselComponent",
+                "modifiedTime" : "2020-04-29T19:09:24.536Z",
+                "name" : "What's New Electronics Homepage Product Carousel",
+                "container" : "false",
+                "popup" : "false",
+                "scroll" : "ALLVISIBLE",
+                "productCodes" : "2278102 1992693 1981415 1934796 1776948 1641905 932577",
+                "title" : "What's New"
+             } ]
+          }
+       }, {
+          "slotId" : "HomepageBottomHeaderSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJIb21lcGFnZUJvdHRvbUhlYWRlclNsb3QiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "BottomHeaderSlot",
+          "name" : "Homepage Bottom Header Slot",
+          "slotShared" : false,
+          "components" : {
+             "component" : [ ]
+          }
+       }, {
+          "slotId" : "HeaderLinksSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJIZWFkZXJMaW5rc1Nsb3QiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "HeaderLinks",
+          "name" : "Header links",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ ]
+          }
+       }, {
+          "slotId" : "FooterSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJGb290ZXJTbG90IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "Footer",
+          "name" : "Footer",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ {
+                "uid" : "FooterNavigationComponent",
+                "uuid" : "eyJpdGVtSWQiOiJGb290ZXJOYXZpZ2F0aW9uQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "FooterNavigationComponent",
+                "modifiedTime" : "2020-04-29T19:09:57.156Z",
+                "name" : "Footer Navigation Component",
+                "container" : "false",
+                "showLanguageCurrency" : "true",
+                "wrapAfter" : "4",
+                "notice" : "Copyright © 2020 SAP SE or an SAP affiliate company. All rights reserved.",
+                "navigationNode" : {
+                   "uid" : "FooterNavNode",
+                   "uuid" : "eyJpdGVtSWQiOiJGb290ZXJOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                   "entries" : [ ],
+                   "children" : [ {
+                      "uid" : "SAPCommerceNavNode",
+                      "uuid" : "eyJpdGVtSWQiOiJTQVBDb21tZXJjZU5hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                      "entries" : [ ],
+                      "children" : [ {
+                         "uid" : "AboutSAPCommerceNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJBYm91dFNBUENvbW1lcmNlTmF2Tm9kZSIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                         "entries" : [ {
+                            "itemId" : "AboutSAPCommerceLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      }, {
+                         "uid" : "FAQNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJGQVFOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                         "entries" : [ {
+                            "itemId" : "FAQLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      } ],
+                      "title" : "SAP Commerce Cloud"
+                   }, {
+                      "uid" : "SAPCustomerExperienceNavNode",
+                      "uuid" : "eyJpdGVtSWQiOiJTQVBDdXN0b21lckV4cGVyaWVuY2VOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                      "entries" : [ ],
+                      "children" : [ {
+                         "uid" : "AboutSAPCustomerExperienceNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJBYm91dFNBUEN1c3RvbWVyRXhwZXJpZW5jZU5hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                         "entries" : [ {
+                            "itemId" : "VisitSAPLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      }, {
+                         "uid" : "ContactUsNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJDb250YWN0VXNOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                         "entries" : [ {
+                            "itemId" : "ContactUsLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      } ],
+                      "title" : "SAP Customer Experience"
+                   }, {
+                      "uid" : "FollowUsNavNode",
+                      "uuid" : "eyJpdGVtSWQiOiJGb2xsb3dVc05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                      "entries" : [ ],
+                      "children" : [ {
+                         "uid" : "AgileCommerceBlogNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJBZ2lsZUNvbW1lcmNlQmxvZ05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                         "entries" : [ {
+                            "itemId" : "AgileCommerceBlogLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      }, {
+                         "uid" : "LinkedInNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJMaW5rZWRJbk5hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                         "entries" : [ {
+                            "itemId" : "LinkedInLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      }, {
+                         "uid" : "FacebookNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJGYWNlYm9va05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                         "entries" : [ {
+                            "itemId" : "FacebookLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      }, {
+                         "uid" : "TwitterNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJUd2l0dGVyTmF2Tm9kZSIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                         "entries" : [ {
+                            "itemId" : "TwitterLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      } ],
+                      "title" : "Follow Us"
+                   } ]
+                }
+             }, {
+                "uid" : "AnonymousConsentOpenDialogComponent",
+                "uuid" : "eyJpdGVtSWQiOiJBbm9ueW1vdXNDb25zZW50T3BlbkRpYWxvZ0NvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "CMSFlexComponent",
+                "modifiedTime" : "2020-04-29T19:09:12.518Z",
+                "name" : "Anonymous Consent Open Dialog Component",
+                "container" : "false",
+                "flexType" : "AnonymousConsentOpenDialogComponent"
+             }, {
+                "uid" : "NoticeTextParagraph",
+                "uuid" : "eyJpdGVtSWQiOiJOb3RpY2VUZXh0UGFyYWdyYXBoIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "CMSParagraphComponent",
+                "modifiedTime" : "2020-04-29T19:09:12.614Z",
+                "name" : "Notice Text Paragraph",
+                "container" : "false",
+                "content" : "<div class=\"cx-notice\">Copyright © 2019 SAP SE or an SAP affiliate company. All rights reserved.</div>"
+             }, {
+                "uid" : "AnonymousConsentManagementBannerComponent",
+                "uuid" : "eyJpdGVtSWQiOiJBbm9ueW1vdXNDb25zZW50TWFuYWdlbWVudEJhbm5lckNvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "CMSFlexComponent",
+                "modifiedTime" : "2020-04-29T19:09:08.967Z",
+                "name" : "Anonymous Consent Management Banner Component",
+                "container" : "false",
+                "flexType" : "AnonymousConsentManagementBannerComponent"
+             } ]
+          }
+       }, {
+          "slotId" : "SearchBoxSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJTZWFyY2hCb3hTbG90IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "SearchBox",
+          "name" : "Search Box",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ {
+                "uid" : "SearchBox",
+                "uuid" : "eyJpdGVtSWQiOiJTZWFyY2hCb3giLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode" : "SearchBoxComponent",
+                "modifiedTime" : "2020-04-29T19:09:10.696Z",
+                "name" : "Search Box",
+                "container" : "false",
+                "maxSuggestions" : "5",
+                "maxProducts" : "5",
+                "displaySuggestions" : "true",
+                "displayProducts" : "true",
+                "displayProductImages" : "true",
+                "waitTimeBeforeRequest" : "0",
+                "minCharactersBeforeRequest" : "0"
+             } ]
+          }
+       }, {
+          "slotId" : "MiniCartSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJNaW5pQ2FydFNsb3QiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "MiniCart",
+          "name" : "Mini Cart",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ {
+                "uid" : "MiniCart",
+                "uuid" : "eyJpdGVtSWQiOiJNaW5pQ2FydCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "MiniCartComponent",
+                "modifiedTime" : "2020-04-29T19:09:57.33Z",
+                "name" : "Mini-Warenkorb",
+                "container" : "false",
+                "shownProductCount" : "3",
+                "totalDisplay" : "SUBTOTAL",
+                "title" : "YOUR SHOPPING CART",
+                "lightboxBannerComponent" : {
+                   "container" : "false",
+                   "uid" : "LightboxHomeDeliveryBannerComponent",
+                   "external" : "false",
+                   "name" : "Lightbox Home Delivery Banner Component",
+                   "media" : {
+                      "code" : "Elec_358x45_HomeDeliveryBanner_EN_01.gif",
+                      "mime" : "image/gif",
+                      "altText" : "Lieferung am nächsten Tag, wenn vor 18 Uhr bestellt wird",
+                      "url" : "/medias/?context=bWFzdGVyfGltYWdlc3w0MTA5fGltYWdlL2dpZnxoOTEvaDM4Lzg3OTc1MjIwMDE5NTB8OTM1MWFlZmMxYTk2ZDUyY2IyZmZmZmIyMDQ0ZTU1NTYzYWY4ZjJjZTk4ZThiMGM2Y2Y1ZTdhMDZhMmExNDVhNw"
+                   },
+                   "uuid" : "eyJpdGVtSWQiOiJMaWdodGJveEhvbWVEZWxpdmVyeUJhbm5lckNvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                   "typeCode" : "SimpleBannerComponent"
+                }
+             } ]
+          }
+       }, {
+          "slotId" : "SiteLogoSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJTaXRlTG9nb1Nsb3QiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "SiteLogo",
+          "name" : "Default Site Logo Slot",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ {
+                "uid" : "SiteLogoComponent",
+                "uuid" : "eyJpdGVtSWQiOiJTaXRlTG9nb0NvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "SimpleBannerComponent",
+                "modifiedTime" : "2020-04-29T19:09:10.948Z",
+                "name" : "Site Logo Component",
+                "container" : "false",
+                "external" : "false",
+                "media" : {
+                   "code" : "/images/theme/SAP_scrn_R.png",
+                   "mime" : "image/png",
+                   "altText" : "SAP Commerce",
+                   "url" : "/medias/SAP-scrn-R.png?context=bWFzdGVyfGltYWdlc3wxMDEyN3xpbWFnZS9wbmd8aGI4L2hmNS84Nzk3NjYzMDM1NDIyL1NBUF9zY3JuX1IucG5nfDI0NDRlMWY0Y2RiODYwZTg0NjE4NGU1MDYxOTYwNGE5ZjNmNThkY2MwODYxYTg2OGY0MmM0NTUxNzlhZGM0MzQ"
+                },
+                "urlLink" : "/"
+             } ]
+          }
+       }, {
+          "slotId" : "TopHeaderSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJUb3BIZWFkZXJTbG90IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "TopHeaderSlot",
+          "name" : "Top Header",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ ]
+          }
+       }, {
+          "slotId" : "HomepageNavLinkSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJIb21lcGFnZU5hdkxpbmtTbG90IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "HomepageNavLink",
+          "name" : "Default Homepage Link",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ {
+                "uid" : "HomepageNavLink",
+                "uuid" : "eyJpdGVtSWQiOiJIb21lcGFnZU5hdkxpbmsiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode" : "CMSLinkComponent",
+                "modifiedTime" : "2020-04-29T19:09:58.408Z",
+                "name" : "Home Page Nav Link",
+                "container" : "false",
+                "external" : "false",
+                "contentPage" : "homepage",
+                "contentPageLabelOrId" : "homepage",
+                "url" : "/",
+                "linkName" : "Home",
+                "target" : "false"
+             } ]
+          }
+       }, {
+          "slotId" : "NavigationBarSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJOYXZpZ2F0aW9uQmFyU2xvdCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+          "position" : "NavigationBar",
+          "name" : "Navigation Bar",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ {
+                "uid" : "ElectronicsCategoryNavComponent",
+                "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0NhdGVnb3J5TmF2Q29tcG9uZW50IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "CategoryNavigationComponent",
+                "modifiedTime" : "2020-04-29T19:09:57.243Z",
+                "name" : "Category Navigation Component",
+                "container" : "false",
+                "wrapAfter" : "10",
+                "navigationNode" : {
+                   "uid" : "ElectronicsCategoryNavNode",
+                   "uuid" : "eyJpdGVtSWQiOiJFbGVjdHJvbmljc0NhdGVnb3J5TmF2Tm9kZSIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                   "entries" : [ ],
+                   "children" : [ {
+                      "uid" : "DigitalCamerasNavNode",
+                      "uuid" : "eyJpdGVtSWQiOiJEaWdpdGFsQ2FtZXJhc05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                      "entries" : [ {
+                         "itemId" : "DigitalCamerasCategoryLink",
+                         "itemSuperType" : "AbstractCMSComponent",
+                         "itemType" : "CMSLinkComponent"
+                      } ],
+                      "children" : [ {
+                         "uid" : "DigitalCompactsNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJEaWdpdGFsQ29tcGFjdHNOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                         "entries" : [ {
+                            "itemId" : "DigitalCompactsCategoryLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      }, {
+                         "uid" : "DigitalSLRNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJEaWdpdGFsU0xSTmF2Tm9kZSIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                         "entries" : [ {
+                            "itemId" : "DigitalSLRCategoryLink",
+                            "itemSuperType" : "AbstractCMSComponent",
+                            "itemType" : "CMSLinkComponent"
+                         } ],
+                         "children" : [ ]
+                      } ],
+                      "title" : "Digital Cameras"
+                   }, {
+                      "uid" : "FilmCamerasNavNode",
+                      "uuid" : "eyJpdGVtSWQiOiJGaWxtQ2FtZXJhc05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                      "entries" : [ {
+                         "itemId" : "FilmCamerasCategoryLink",
+                         "itemSuperType" : "AbstractCMSComponent",
+                         "itemType" : "CMSLinkComponent"
+                      } ],
+                      "children" : [ ],
+                      "title" : "Film Cameras"
+                   }, {
+                      "uid" : "HandheldCamcordersNavNode",
+                      "uuid" : "eyJpdGVtSWQiOiJIYW5kaGVsZENhbWNvcmRlcnNOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                      "entries" : [ {
+                         "itemId" : "HandheldCamcordersCategoryLink",
+                         "itemSuperType" : "AbstractCMSComponent",
+                         "itemType" : "CMSLinkComponent"
+                      } ],
+                      "children" : [ ],
+                      "title" : "Camcorders"
+                   }, {
+                      "uid" : "WebcamsNavNode",
+                      "uuid" : "eyJpdGVtSWQiOiJXZWJjYW1zTmF2Tm9kZSIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                      "entries" : [ {
+                         "itemId" : "WebcamsCategoryLink",
+                         "itemSuperType" : "AbstractCMSComponent",
+                         "itemType" : "CMSLinkComponent"
+                      } ],
+                      "children" : [ ],
+                      "title" : "Webcams"
+                   }, {
+                      "uid" : "CameraAccessoriesNavNode",
+                      "uuid" : "eyJpdGVtSWQiOiJDYW1lcmFBY2Nlc3Nvcmllc05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                      "entries" : [ {
+                         "itemId" : "CameraAccessoriesCategoryLink",
+                         "itemSuperType" : "AbstractCMSComponent",
+                         "itemType" : "CMSLinkComponent"
+                      } ],
+                      "children" : [ {
+                         "uid" : "AccessoriesNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJBY2Nlc3Nvcmllc05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                         "entries" : [ ],
+                         "children" : [ {
+                            "uid" : "CamerasFlashesNavNode",
+                            "uuid" : "eyJpdGVtSWQiOiJDYW1lcmFzRmxhc2hlc05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                            "entries" : [ {
+                               "itemId" : "CamerasFlashesCategoryLink",
+                               "itemSuperType" : "AbstractCMSComponent",
+                               "itemType" : "CMSLinkComponent"
+                            } ],
+                            "children" : [ ]
+                         }, {
+                            "uid" : "TripodsNavNode",
+                            "uuid" : "eyJpdGVtSWQiOiJUcmlwb2RzTmF2Tm9kZSIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                            "entries" : [ {
+                               "itemId" : "TripodsCategoryLink",
+                               "itemSuperType" : "AbstractCMSComponent",
+                               "itemType" : "CMSLinkComponent"
+                            } ],
+                            "children" : [ ]
+                         }, {
+                            "uid" : "CameraLensesNavNode",
+                            "uuid" : "eyJpdGVtSWQiOiJDYW1lcmFMZW5zZXNOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                            "entries" : [ {
+                               "itemId" : "CameraLensesCategoryLink",
+                               "itemSuperType" : "AbstractCMSComponent",
+                               "itemType" : "CMSLinkComponent"
+                            } ],
+                            "children" : [ ]
+                         }, {
+                            "uid" : "PowerSuppliesNavNode",
+                            "uuid" : "eyJpdGVtSWQiOiJQb3dlclN1cHBsaWVzTmF2Tm9kZSIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                            "entries" : [ {
+                               "itemId" : "PowerSuppliesCategoryLink",
+                               "itemSuperType" : "AbstractCMSComponent",
+                               "itemType" : "CMSLinkComponent"
+                            } ],
+                            "children" : [ ],
+                            "title" : "Power Supplies"
+                         }, {
+                            "uid" : "FlashMemoryNavNode",
+                            "uuid" : "eyJpdGVtSWQiOiJGbGFzaE1lbW9yeU5hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                            "entries" : [ {
+                               "itemId" : "FlashMemoryCategoryLink",
+                               "itemSuperType" : "AbstractCMSComponent",
+                               "itemType" : "CMSLinkComponent"
+                            } ],
+                            "children" : [ ],
+                            "title" : "Flash Memory"
+                         } ],
+                         "title" : "Gear"
+                      }, {
+                         "uid" : "SuppliesNavNode",
+                         "uuid" : "eyJpdGVtSWQiOiJTdXBwbGllc05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                         "entries" : [ ],
+                         "children" : [ {
+                            "uid" : "ColourFilmsNavNode",
+                            "uuid" : "eyJpdGVtSWQiOiJDb2xvdXJGaWxtc05hdk5vZGUiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                            "entries" : [ {
+                               "itemId" : "ColourFilmsCategoryLink",
+                               "itemSuperType" : "AbstractCMSComponent",
+                               "itemType" : "CMSLinkComponent"
+                            } ],
+                            "children" : [ ]
+                         }, {
+                            "uid" : "BlackAndWhiteFilmsNavNode",
+                            "uuid" : "eyJpdGVtSWQiOiJCbGFja0FuZFdoaXRlRmlsbXNOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                            "entries" : [ {
+                               "itemId" : "BlackAndWhiteFilmsCategoryLink",
+                               "itemSuperType" : "AbstractCMSComponent",
+                               "itemType" : "CMSLinkComponent"
+                            } ],
+                            "children" : [ ]
+                         }, {
+                            "uid" : "BlankVideotapesNavNode",
+                            "uuid" : "eyJpdGVtSWQiOiJCbGFua1ZpZGVvdGFwZXNOYXZOb2RlIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                            "entries" : [ {
+                               "itemId" : "BlankVideotapesCategoryLink",
+                               "itemSuperType" : "AbstractCMSComponent",
+                               "itemType" : "CMSLinkComponent"
+                            } ],
+                            "children" : [ ]
+                         } ],
+                         "title" : "Supplies"
+                      } ],
+                      "title" : "Accessories"
+                   } ]
+                }
+             } ]
+          }
+       }, {
+          "slotId" : "PlaceholderContentSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJQbGFjZWhvbGRlckNvbnRlbnRTbG90IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "PlaceholderContentSlot",
+          "name" : "Placeholder for Addon tag files",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ ]
+          }
+       }, {
+          "slotId" : "SiteContextSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJTaXRlQ29udGV4dFNsb3QiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+          "position" : "SiteContext",
+          "name" : "Site Context Slot",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ {
+                "uid" : "LanguageComponent",
+                "uuid" : "eyJpdGVtSWQiOiJMYW5ndWFnZUNvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "CMSSiteContextComponent",
+                "modifiedTime" : "2020-04-29T19:09:35.415Z",
+                "name" : "Site Languages",
+                "container" : "false",
+                "context" : "LANGUAGE"
+             }, {
+                "uid" : "CurrencyComponent",
+                "uuid" : "eyJpdGVtSWQiOiJDdXJyZW5jeUNvbXBvbmVudCIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "CMSSiteContextComponent",
+                "modifiedTime" : "2020-04-29T19:09:35.375Z",
+                "name" : "Site Currencies",
+                "container" : "false",
+                "context" : "CURRENCY"
+             } ]
+          }
+       }, {
+          "slotId" : "SiteLinksSlot",
+          "slotUuid" : "eyJpdGVtSWQiOiJTaXRlTGlua3NTbG90IiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position" : "SiteLinks",
+          "name" : "Slot contains some links",
+          "slotShared" : true,
+          "components" : {
+             "component" : [ {
+                "uid" : "StoreFinderLink",
+                "uuid" : "eyJpdGVtSWQiOiJTdG9yZUZpbmRlckxpbmsiLCJjYXRhbG9nSWQiOiJlbGVjdHJvbmljcy1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode" : "CMSLinkComponent",
+                "modifiedTime" : "2020-04-29T19:09:13.341Z",
+                "name" : "Store Finder Link",
+                "container" : "false",
+                "external" : "false",
+                "contentPage" : "storefinderPage",
+                "contentPageLabelOrId" : "/store-finder",
+                "url" : "/store-finder",
+                "linkName" : "Find a Store",
+                "target" : "false"
+             }, {
+                "uid" : "ContactUsLink",
+                "uuid" : "eyJpdGVtSWQiOiJDb250YWN0VXNMaW5rIiwiY2F0YWxvZ0lkIjoiZWxlY3Ryb25pY3Mtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                "typeCode" : "CMSLinkComponent",
+                "modifiedTime" : "2020-04-29T19:09:12.352Z",
+                "name" : "Contact Us Link",
+                "container" : "false",
+                "external" : "false",
+                "url" : "/contact",
+                "linkName" : "Contact Us",
+                "target" : "false"
+             }, {
+                "uid" : "HelpLink",
+                "uuid" : "eyJpdGVtSWQiOiJIZWxwTGluayIsImNhdGFsb2dJZCI6ImVsZWN0cm9uaWNzLXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode" : "CMSLinkComponent",
+                "modifiedTime" : "2020-04-29T19:09:12.436Z",
+                "name" : "Help Link",
+                "container" : "false",
+                "external" : "false",
+                "url" : "/faq",
+                "linkName" : "Help",
+                "target" : "false"
+             } ]
+          }
+       } ]
+    },
+    "label" : "homepage"
+ }

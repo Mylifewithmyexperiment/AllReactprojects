@@ -1,23 +1,25 @@
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Login from "./Login";
+import "./styles.css";
+import View from "./View";
 
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from './Component/HomePage';
-import DashboardPage from './Component/DashboardPage';
-import LoginPage from './Component/LoginPage';
-
+export const UserContext = React.createContext();
 function App() {
   return (
-    <div className="App">
-      <Router>
-      <Switch>
-      <Route exact path='/' component={HomePage}></Route>
-      <Route exact path ='/dashboard' component ={DashboardPage} ></Route>
-      <Route exact path = '/login' component={LoginPage}></Route>
-      </Switch>      
-      </Router>
-    </div>
+    <>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <View />
+          </Route>
+          <Route exact path="/signin">
+            <Login />
+          </Route>
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 
 export default App;
-//new udday

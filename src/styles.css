@@ -1,37 +1,144 @@
-.todo-app {
-    font-family: sans-serif;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 58%;
   }
-  
-  /** add todo **/
-  .add-todo {
-    margin-left: 0.5rem;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
   }
-  
-  /** todo list **/
-  .todo-list {
-    margin-top: 1rem;
-    text-align: left;
-    list-style: none;
+}
+@media (max-width: 596px) {
+  html {
+    font-size: 53%;
   }
-  
-  /** todo item **/
-  .todo-item {
-    font-family: monospace;
-    cursor: pointer;
-    line-height: 1.5;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container,
+.view-1 > div,
+.view-2 > div {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .view-1 > div {
+    flex-direction: column;
   }
-  .todo-item__text--completed {
-    text-decoration: line-through;
-    color: lightgray;
+  .view-item {
+    height: 10rem;
   }
-  
-  /** visibility filters **/
-  .filter {
-    padding: 0.3rem 0;
-    margin: 0 0.3rem;
-    cursor: pointer;
-  }
-  .filter--active {
-    border-bottom: 1px solid black;
-  }
-  
+}
+.btn-sm {
+  padding: 3px 6px;
+  background-color: #4caf50;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0%;
+}
+.btn {
+  border-radius: 15px;
+  padding: 6px 35px;
+  height: 35px;
+  font-size: 2rem;
+  background-color: #4caf50;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.632);
+}
+iframe {
+  height: 100rem;
+  border-top: 1px solid black;
+}
+.halfscreen {
+  width: 50vw;
+}
+.fullscreen {
+  width: 100vw;
+}
+.view-item {
+  height: 4.5rem;
+  justify-content: space-between;
+  margin: 1rem 1rem;
+  /* align-items: baseline; */
+}
+input {
+  height: 2rem;
+  width: 50rem;
+}
+.username {
+  font-size: 2rem;
+  height: 2.3rem;
+}
+.username:hover {
+  border-bottom: 1px solid dodgerblue;
+  cursor: pointer;
+}
+h2 {
+  margin: 0 20%;
+  border: 1px solid black;
+  display: inline;
+}
+
+form {
+  width: auto;
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+}
+form > div > input,
+form > input {
+  width: 10rem;
+  height: auto;
+}
+form > h3 {
+  font-size: 3rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 10rem;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}

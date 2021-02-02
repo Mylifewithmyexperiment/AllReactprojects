@@ -1,28 +1,20 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { createStore, applyMiddleware } from 'redux'
-import { Provider } from 'react-redux'
-import { createLogger } from 'redux-logger'
-import thunk from 'redux-thunk'
-import reducer from './reducers'
-import { getAllProducts } from './actions'
-import App from './containers/App'
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import React from 'react';
+import { store, history} from './store';
 
-const middleware = [ thunk ];
-if (process.env.NODE_ENV !== 'production') {
-  middleware.push(createLogger());
-}
+import { Route, Switch } from 'react-router-dom';
+import { ConnectedRouter } from 'react-router-redux';
 
-const store = createStore(
-  reducer,
-  applyMiddleware(...middleware)
-)
+import App from './components/App';
 
-store.dispatch(getAllProducts())
-
-render(
+ReactDOM.render((
   <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
-)
+    <ConnectedRouter history={history}>
+      <Switch>
+        <Route path="/" component={App} />
+      </Switch>
+    </ConnectedRouter>
+  </Provider>
+
+), document.getElementById('root'));

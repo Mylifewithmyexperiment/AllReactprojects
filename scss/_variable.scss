@@ -1,0 +1,84 @@
+//    Font Family
+
+$gothamBold: 'GothamBold',
+sans-serif;
+$gothamMedium: 'GothamMedium',
+sans-serif;
+$gothamBook: 'GothamBook',
+sans-serif;
+$gothamLight: 'GothamLight',
+sans-serif;
+
+/*----------------- Color variations -----------------*/
+
+$bodyColor : #00030c;
+$pink : #df1177;
+$black : #000000;
+$placeholder_color : #bbbbbb;
+$blue : #000037;
+$bgFooter: #121025;
+$footerText: #8c8a9f;
+$white: #ffffff;
+$chaticon: #0b0726;
+$carticon: #0e0e72;
+$tbl_border: #353535;
+$default_videobg: #00001c;
+$error: #dc3545;
+$cardbg: #f4f4f4;
+$bg_filter: #dfdfdf;
+$bg_tab: #e0e0e1;
+$icon_color: #333;
+$collapse_header: #ced4da;
+
+/* Brand Details */
+$bg-azure : #3155d4;
+$bg-microsoft365: #203863;
+$bg-office365: #ed2403;
+$bg-window10: #3670c5;
+$bg-microsoftteams: #6363a7;
+$bg-ems: #44af54;
+$bg-ms: #33863d;
+$bg-wa: #6bc855;
+$bg-ws: #172f74;
+$bg-msurface: #f4b712;
+$bg-bechtle: #88cada;
+$bg-ucc: #479fd5;
+
+$bg-lightGray: #eee;
+$bg-transparentBlack: rgba(0, 0, 0, 0.4);
+
+
+$transition-time: .5s;
+$transition-text-time: $transition-time / 2;
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -moz-transform: $property;
+    -ms-transform: $property;
+    -o-transform: $property;
+    transform: $property;
+}
+
+
+@mixin vertical-abs-mid {
+    position: absolute;
+    top: 50%;
+    @include transform(translate(0, -50%));
+
+}
+
+@mixin after-before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+:root {
+    --z-distance: $item-width / 7.63;
+    --from-left: 1;
+    --mobile-bkp: $mobile-bkp;
+}

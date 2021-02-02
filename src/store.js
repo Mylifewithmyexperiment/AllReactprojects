@@ -1,25 +1,24 @@
-import { applyMiddleware, createStore } from 'redux';
-import { createLogger } from 'redux-logger'
-import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
-import { promiseMiddleware, localStorageMiddleware } from './middleware';
-import reducer from './reducer';
 
-import { routerMiddleware } from 'react-router-redux'
-import createHistory from 'history/createBrowserHistory';
+import { createStore, applyMiddleware,compose } from 'redux'
+import { persistStore, persistReducer } from 'redux-persist'
+import storage from 'redux-persist/lib/storage' // defaults to localStorage for web
 
-export const history = createHistory();
+import AddAllReducers from './reducers'
 
-// Build the middleware for intercepting and dispatching navigation actions
-const myRouterMiddleware = routerMiddleware(history);
+const persistConfig = {
+  key: 'root',
+  storage,
+}
 
-const getMiddleware = () => {
-  if (process.env.NODE_ENV === 'production') {
-    return applyMiddleware(myRouterMiddleware, promiseMiddleware, localStorageMiddleware);
-  } else {
-    // Enable additional logging in non-production environments.
-    return applyMiddleware(myRouterMiddleware, promiseMiddleware, localStorageMiddleware, createLogger())
-  }
-};
+const persistedReducer = persistReducer(persistConfig, AddAllReducers)
+ 
+const store =createStore(persistedReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
-export const store = createStore(
-  reducer, composeWithDevTools(getMiddleware()));
+ 
+//  let store = createStore(persistedReducer)
+  let persistor = persistStore(store)
+  export { store, persistor }
+ 
+   //export default persistStore(store) ;

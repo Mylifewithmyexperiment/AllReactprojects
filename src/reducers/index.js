@@ -1,11 +1,9 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from "redux";
+import marketPlaceStandardData from "./marketPlaceStandardData";
 
-import productItems from './productItems';
-import cartItems from './cartItems';
-
-let rootReducer = combineReducers({
-  productItems,
-  cartItems
+const AddAllReducers = combineReducers({
+  marketPlaceStandardData: marketPlaceStandardData,
+ 
 });
 
-export default rootReducer;
+export default AddAllReducers;

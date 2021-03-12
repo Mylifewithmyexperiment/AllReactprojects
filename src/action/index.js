@@ -1,9 +1,17 @@
+import {INCREMENT,DECREMENT} from "../actionTypes";
 
-import React from 'react';
- 
-   export const sendHomeData = (params) => ({
-    type: 'SEND_PRODUCT_TO_CART',
-    params,
-  });
-  
- 
+export const incremenValue = (params) => {
+  return {
+    type: INCREMENT,
+    params :++params
+  };
+};
+
+export const decrementValue = (params) => {
+  return {
+    type :  DECREMENT,
+    params: --params,
+  };
+};
+
+

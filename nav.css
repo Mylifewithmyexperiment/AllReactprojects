@@ -1,0 +1,136 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+  *,
+  *::before,
+  *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  }
+
+  :root {
+  --black: #1e272e;
+  --blue: #0097e6;
+  }
+
+  a {
+  text-decoration: none;
+  }
+
+  .header {
+  height: 6rem;
+  width: 100%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  line-height: 6rem;
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  z-index: 111;
+
+  
+  }
+
+  .header a {
+  color: rgba(17, 17, 17, 0.863);
+  }
+
+  .header a:hover {
+  color: var(--blue);
+  }
+
+  .header .logo a {
+  padding-left: 3rem;
+  font-weight: bold;
+  color: var(--blue);
+  }
+
+  .logo {
+  width: 50%;
+  }
+
+  .links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .links i {
+  display: none;
+  }
+  .nav_active{
+    color: #111 !important;
+    font-weight: bold;
+    position: relative;
+  }
+  .nav_active i {
+    color: var(--blue) !important;
+  }
+ 
+  .nav_active::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.2rem;
+    background-color: #0097e6;
+    bottom: 1.2rem;
+    left: 0;
+
+  }
+
+  @media (max-width:700px) {
+  html {
+  font-size: 58.2%;
+  }
+  .header {
+    background-color: rgba(17, 17, 17, 0.966);
+  
+  }
+  .logo span {
+  color: #fff!important;
+  letter-spacing: 0.1rem;
+  }
+  .header .logo {
+  width: 100%;
+  font-weight: bold;
+  font-size: 2.5rem;
+  
+  
+  }
+  .header{
+    position: fixed;
+    top:0;
+    left: 0;
+  }
+  .links {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(17, 17, 17, 0.966);
+      z-index: 1000;
+   
+  }
+  .links i {
+  display: block;
+  color: #fff;
+  font-size: 2.3rem;
+  }
+  .links span {
+  display: none;
+  }
+  .nav_active::after{
+    display: none;
+  }
+  
+  }
+  
+  

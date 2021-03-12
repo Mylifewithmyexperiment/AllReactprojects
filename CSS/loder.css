@@ -1,0 +1,15 @@
+ html{
+     font-size: 62.5%;
+ }
+ .loder{
+     height: calc( 100vh - 6rem );
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .loder img{
+     height: 20rem;
+     -webkit-user-drag: none;
+
+ }

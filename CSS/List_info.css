@@ -1,0 +1,18 @@
+.left_side li{
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    
+}
+.personal_info li{
+   max-width: 25rem;
+}
+.left_side .personal_info li:hover {
+     color: var(--main-blue);
+     cursor: pointer;
+     font-weight: bold;
+}
+.left_side .personal_info i {
+   margin:  0 1rem ;
+   
+}
